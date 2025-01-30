@@ -1,0 +1,38 @@
+/* .about-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+} */
+.about-main {
+    margin: 0;
+    padding: 0;
+  }
+/* .about-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+} */
+.about-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+.heading{
+    font-size: 40px;
+    color: #bea064;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+
+@media (max-width: 600px) {
+    .about-img h3 {
+      font-size: 20px;
+    }
+    .promise-box {
+      width: 100% !important;
+    }
+  }

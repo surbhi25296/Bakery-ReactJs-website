@@ -1,0 +1,57 @@
+.home {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  color: white ;
+  align-items:center;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_640.jpg);
+  background-size: cover; /* Fix the scaling issue */
+  background-position: center; /* Center the image properly */
+  background-repeat: no-repeat;
+}
+.home .header-container p{
+  font-size: 50px;
+  font-weight:bold;
+  font-family: Signika Negative, serif;
+}
+.btn1{
+  width: 170px;
+  height: 50px;
+  border: 2px solid #bea064;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  color: #bea064;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Signika Negative", serif;
+  margin-top: 15px;
+}
+
+/* mobile view */
+@media only screen and (max-width:600px){
+  .home{
+    justify-content: center;
+    align-items: center;
+  }
+  .home .header-container p{
+    font-size: 30px;
+    font-weight:bold;
+  }
+  .home .header-container h1{
+    font-size: 18px !important;
+    margin-top: 10px;
+  }
+  .btn1{
+    width: 100px;
+    height: 50px;
+    border: 2px solid #bea064;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    color: #bea064;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Signika Negative", serif;
+    margin-top: 15px;
+  }
+}
